@@ -1,0 +1,13 @@
+title: Your Site Title
+description: A brief description of your site
+remote_theme: the-name-of-the-theme-you-want
+
+# Optional but recommended
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# If the theme supports it, you can customize colors, etc.
+# theme: jekyll-theme-minimal   # (only needed for local themes)
