@@ -3,14 +3,19 @@ title: "IRS Refund Delays — What to do"
 description: "Practical steps if your IRS refund is delayed"
 date: 2025-01-01
 author: "Walidad Ali"
-tags: [irs, refund]
+tags:
+  - irs
+  - refund
 faq:
-- question: "How long does IRS refund take?"
-answer: "Typically 21 days for e-filed returns..."
-- question: "What if refund delayed?"
-answer: "Use the IRS "Where's My Refund" tool or file a transcript request."
+  - question: "How long does IRS refund take?"
+    answer: "Typically 21 days for e-filed returns."
+  - question: "What if refund delayed?"
+    # Use single quotes for outer string so inner double-quotes are allowed,
+    # and escape a single quote inside by doubling it (Where's -> Where''s)
+    answer: 'Use the IRS "Where''s My Refund" tool or file a transcript request.'
 layout: post
 ---
+
 
 
 # IRS Refund Delays — What to do
