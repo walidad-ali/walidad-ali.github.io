@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+{% include head.html %}
+</head>
+<body>
+<header class="site-header">
+<div class="container">
+<h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
+<nav>
+<a href="/">Home</a>
+<a href="/articles/">Articles</a>
+</nav>
+</div>
+</header>
+
+
+<main class="container">
+{{ content }}
+</main>
+
+
+<footer class="site-footer container">
+<p>© {{ site.time | date: "%Y" }} {{ site.title }}</p>
+</footer>
+
+
+<!-- Search script -->
+<script src="/assets/js/lunr.min.js"></script>
+<script src="/assets/js/search.js"></script>
+</body>
+</html>
