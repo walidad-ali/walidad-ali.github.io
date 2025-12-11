@@ -1,13 +1,48 @@
-title: Your Site Title - Does it update when I commit a change?
-description: A brief description of your site
-remote_theme: the-name-of-the-theme-you-want
+title: "Walidad Knowledge Base"
+email: "you@walidad.com"
+description: "Practical guides and explanations about tax and IRS topics."
+baseurl: "" # set to "" when using root domain
+url: "https://walidad.com"
 
-# Optional but recommended
+
+theme: minima
+
+
+enabled_plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-sitemap
+
+
+collections:
+articles:
+output: true
+permalink: /:collection/:path/
+
+
+markdown: kramdown
+kramdown:
+input: GFM
+
+
+# Exclude files from the published site
+exclude:
+- README.md
+- Gemfile
+- Gemfile.lock
+
+
+# Defaults for articles
+defaults:
+- scope:
+path: ""
+type: "articles"
+values:
+layout: "post"
+author: "Walidad Ali"
+
+
 plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-
-# If the theme supports it, you can customize colors, etc.
-# theme: jekyll-theme-minimal   # (only needed for local themes)
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-sitemap
