@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://walidad.com/sitemap.xml
