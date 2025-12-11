@@ -1,0 +1,34 @@
+{%- assign article_url = site.url | append: page.url -%}
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "Article",
+"headline": "{{ page.title | escape }}",
+"description": "{{ page.description | escape }}",
+"datePublished": "{{ page.date | date_to_xmlschema }}",
+"author": {"@type": "Person", "name": "{{ page.author | escape }}"},
+"mainEntityOfPage": "{{ article_url }}"
+}
+</script>
+
+
+{% if page.faq %}
+<script type="application/ld+json">
+{
+"@context": "https://schema.org",
+"@type": "FAQPage",
+"mainEntity": [
+{% for qa in page.faq %}
+{
+"@type": "Question",
+"name": "{{ qa.question | escape }}",
+"acceptedAnswer": {
+"@type": "Answer",
+"text": "{{ qa.answer | strip_newlines | escape }}"
+}
+}{% if forloop.last == false %},{% endif %}
+{% endfor %}
+]
+}
+</script>
+{% endif %}
