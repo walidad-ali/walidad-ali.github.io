@@ -16,7 +16,7 @@ plugins:
 collections:
   articles:
     output: true
-    permalink: /:collection/:path/
+    permalink: /articles/:path/
 
 markdown: kramdown
 kramdown:
