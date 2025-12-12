@@ -1,32 +1,30 @@
 <!doctype html>
 <html lang="en">
-<head>
-{% include head.html %}
-</head>
-<body>
-<header class="site-header">
-<div class="container">
-<h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
-<nav>
-<a href="/">Home</a>
-<a href="/articles/">Articles</a>
-</nav>
-</div>
-</header>
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <h1 class="site-title"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
+        <nav class="site-nav">
+          <a href="{{ '/' | relative_url }}">Home</a>
+          <a href="{{ '/articles/' | relative_url }}">Articles</a>
+        </nav>
+      </div>
+    </header>
 
+    <main class="container site-main">
+      {{ content }}
+    </main>
 
-<main class="container">
-{{ content }}
-</main>
+    <footer class="site-footer">
+      <div class="container">
+        <small>© {{ site.time | date: "%Y" }} {{ site.title }}</small>
+      </div>
+    </footer>
 
-
-<footer class="site-footer container">
-<p>© {{ site.time | date: "%Y" }} {{ site.title }}</p>
-</footer>
-
-
-<!-- Search script -->
-<script src="/assets/js/lunr.min.js"></script>
-<script src="/assets/js/search.js"></script>
-</body>
+    <!-- Search script (if you have a search.js) -->
+    <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
+  </body>
 </html>
