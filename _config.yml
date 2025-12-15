@@ -1,49 +1,67 @@
+# ================================
 # Site settings
+# ================================
 title: "Walidad Knowledge Base"
 description: "Practical guides and explanations about tax and IRS topics."
 url: "https://walidad.com"
 baseurl: ""
 
+# ================================
 # Theme
+# ================================
 remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
-# Plugins (required)
+# ================================
+# Plugins (required by theme)
+# ================================
 plugins:
   - jekyll-include-cache
 
+# ================================
 # Search
+# ================================
 search: true
 search_full_content: true
 
-# Author
+# ================================
+# Author (default)
+# ================================
 author:
   name: "Walidad Ali"
   avatar: "/assets/images/profile.jpg"
   bio: "Knowledge base author"
 
+# ================================
 # Collections
+# ================================
 collections:
   articles:
     output: true
     permalink: /articles/:path/
 
+# ================================
 # Defaults
+# ================================
 defaults:
   - scope:
-    path: ""
-    type: articles
-  values:
-    layout: single
-    author_profile: true
-    read_time: true
-    comments: false
+      path: ""
+      type: "articles"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
 
+# ================================
 # Markdown
+# ================================
 markdown: kramdown
 kramdown:
   input: GFM
 
-# Exclusions
+# ================================
+# Exclude from build
+# ================================
 exclude:
   - Gemfile
   - Gemfile.lock
