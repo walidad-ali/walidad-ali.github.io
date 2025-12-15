@@ -2,7 +2,7 @@
 layout: collection
 title: "Walidad Knowledge Base"
 collection: articles
-entries_layout: grid
+entries_layout: list
 author_profile: true
 ---
 
