@@ -1,38 +1,50 @@
+# Site settings
 title: "Walidad Knowledge Base"
-email: "you@walidad.com"
 description: "Practical guides and explanations about tax and IRS topics."
-baseurl: ""       # set to "" when using root domain
 url: "https://walidad.com"
+baseurl: ""
 
-theme: minima
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
-# Supported plugins (GitHub Pages supports these)
+# Plugins (required)
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
+  - jekyll-include-cache
 
-# Collections configuration
+# Search
+search: true
+search_full_content: true
+
+# Author
+author:
+  name: "Walidad Ali"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Knowledge base author"
+
+# Collections
 collections:
   articles:
     output: true
     permalink: /articles/:path/
 
+# Defaults
+defaults:
+  - scope:
+    path: ""
+    type: articles
+  values:
+    layout: single
+    author_profile: true
+    read_time: true
+    comments: false
+
+# Markdown
 markdown: kramdown
 kramdown:
   input: GFM
 
-# Exclude files from the published site
+# Exclusions
 exclude:
-  - README.md
   - Gemfile
   - Gemfile.lock
-
-# Defaults for articles collection
-defaults:
-  - scope:
-      path: ""
-      type: "articles"
-    values:
-      layout: "post"
-      author: "Walidad Ali"
+  - README.md
