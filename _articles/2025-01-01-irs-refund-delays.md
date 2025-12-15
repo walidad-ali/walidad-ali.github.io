@@ -13,7 +13,7 @@ faq:
     # Use single quotes for outer string so inner double-quotes are allowed,
     # and escape a single quote inside by doubling it (Where's -> Where''s)
     answer: 'Use the IRS "Where''s My Refund" tool or file a transcript request.'
-layout: post
+layout: single
 ---
 
 
