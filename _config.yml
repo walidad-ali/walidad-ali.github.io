@@ -46,12 +46,11 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "articles"
     values:
-      layout: single
+      layout: "single"
       author_profile: true
-      read_time: true
-      comments: false
+      sidebar:
+        nav: "main" # This links to the 'main' list in your navigation.yml
 
 # ================================
 # Markdown
