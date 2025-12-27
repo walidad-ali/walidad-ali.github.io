@@ -1,3 +1,4 @@
+# _data/navigation.yml
 main:
   - title: "Home"
     url: /
@@ -5,3 +6,5 @@ main:
     url: /articles/
   - title: "About"
     url: /about/
+  - title: "Consultation"
+    url: /consultation/
