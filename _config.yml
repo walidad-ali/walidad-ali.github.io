@@ -50,7 +50,6 @@ defaults:
       layout: "single"
       author_profile: true
       sidebar:
-        nav: "main" # This links to the 'main' list in your navigation.yml
 
 # ================================
 # Markdown
