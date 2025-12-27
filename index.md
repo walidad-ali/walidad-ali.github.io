@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Home"
-classes: wide  # This centers the content and uses the full width
+author_profile: false
+classes: wide
 ---
-Walidad's personal website
+# Walidad's personal website
