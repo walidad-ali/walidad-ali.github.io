@@ -3,7 +3,7 @@
 # ================================
 title: "Walidad Knowledge Base"
 description: "Practical guides and explanations about tax and IRS topics."
-url: "https://walidad.com"
+url: "https://www.walidad.com"
 baseurl: ""
 
 # ================================
@@ -30,7 +30,7 @@ search_full_content: true
 author:
   name: "Walidad Ali"
   avatar: "/assets/images/profile.jpg"
-  bio: "Knowledge base author"
+  bio: "CPA"
 
 # ================================
 # Collections
