@@ -48,8 +48,8 @@ defaults:
       path: ""
     values:
       layout: "single"
-      author_profile: false
-      read_time: true
+      author_profile: false # This centers the content for mobile/desktop
+      classes: "wide"       # This removes the empty sidebar gap
 
 # ================================
 # Markdown
