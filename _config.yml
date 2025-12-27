@@ -1,7 +1,7 @@
 # ================================
 # Site settings
 # ================================
-title: "Walidad Knowledge Base"
+title: "Walidad Ali"
 description: "Practical guides and explanations about tax and IRS topics."
 url: "https://www.walidad.com"
 baseurl: ""
@@ -48,8 +48,8 @@ defaults:
       path: ""
     values:
       layout: "single"
-      author_profile: true
-      sidebar:
+      author_profile: false
+      read_time: true
 
 # ================================
 # Markdown
