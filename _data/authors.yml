@@ -3,6 +3,7 @@ walidad_ali:
   name: "Walidad Ali, CPA"
   bio: "Licensed CPA specializing in tax controversy."
   avatar: "/assets/images/profile.jpeg"
+  show_social: false
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
