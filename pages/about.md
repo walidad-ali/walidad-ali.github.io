@@ -1,8 +1,8 @@
 ---
 layout: single
-title: "About Me"
+title: "About Walidad Ali, CPA"
 permalink: /about/
-author_profile: false
+author_profile: true
 classes: wide
 ---
 
