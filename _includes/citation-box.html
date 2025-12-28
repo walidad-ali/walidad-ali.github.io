@@ -1,0 +1,11 @@
+<div class="notice--info" style="margin-top: 2em;">
+  <h4>Legal Authorities Cited</h4>
+  <ul>
+    {% for ref_id in include.refs %}
+      {% assign ref = site.data.references[ref_id] %}
+      {% if ref %}
+        <li><strong>{{ ref.type }}:</strong> <a href="{{ ref.url }}">{{ ref.cite }}</a> - {{ ref.title }}</li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
