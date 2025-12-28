@@ -2,7 +2,7 @@
 layout: single
 title: "About Walidad Ali, CPA"
 permalink: /about/
-author_profile: true
+author_profile: false
 classes: wide
 ---
 
