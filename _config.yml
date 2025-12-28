@@ -66,3 +66,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+
+# ================================
+# Include (tell Jekyll to look in _pages)
+# ================================
+include:
+  - _pages
