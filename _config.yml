@@ -26,9 +26,9 @@ plugins:
 # Collections
 # ================================
 collections:
-  articles:
+  knowledge_base:
     output: true
-    permalink: /articles/:path/
+    permalink: /knowledge-base/:path/
   case_studies:
     output: true
     permalink: /case-studies/:path/
@@ -50,7 +50,7 @@ defaults:
   # 2. THE KNOWLEDGE BASE & CASE STUDIES (Collections)
   - scope:
       path: ""
-      type: "articles"
+      type: "knowledge_base"
     values:
       share: true           # Share is ON for articles
       author_profile: false # Bio stays OFF (per your request)
