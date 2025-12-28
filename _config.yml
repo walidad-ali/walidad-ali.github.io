@@ -37,16 +37,30 @@ collections:
 # Defaults
 # ================================
 defaults:
+  # 1. THE BASELINE (Pages: Home, Consultation, About)
   - scope:
       path: ""
     values:
       layout: "single"
-      author_profile: true    # Shows the bio sidebar we set up
-      author: "walidad_ali"   # Connects to _data/authors.yml
+      author_profile: false # Bio is OFF globally
+      share: false          # Share is OFF globally
       read_time: false
       classes: "wide"
-      share: true             # Enables social sharing buttons
 
+  # 2. THE KNOWLEDGE BASE & CASE STUDIES (Collections)
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      share: true           # Share is ON for articles
+      author_profile: false # Bio stays OFF (per your request)
+
+  - scope:
+      path: ""
+      type: "case_studies"
+    values:
+      share: true           # Share is ON for case studies
+      author_profile: false # Bio stays OFF
 # ================================
 # Build Settings
 # ================================
