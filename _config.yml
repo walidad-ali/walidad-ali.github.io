@@ -49,25 +49,26 @@ defaults:
       path: ""
     values:
       layout: "single"
-      author_profile: false # Bio is OFF globally
-      share: false          # Share is OFF globally
+      author_profile: false 
+      share: false          
       read_time: false
       classes: "wide"
 
-  # 2. THE KNOWLEDGE BASE & CASE STUDIES (Collections)
+# 2. THE KNOWLEDGE BASE (Collection)
   - scope:
       path: ""
       type: "knowledge_base"
     values:
-      share: true           # Share is ON for articles
-      author_profile: false # Bio stays OFF (per your request)
-
+      share: true           
+      author_profile: false
+      
+# 3. THE CASE STUDIES (Collection)
   - scope:
       path: ""
       type: "case_studies"
     values:
-      share: true           # Share is ON for case studies
-      author_profile: false # Bio stays OFF
+      share: true           
+      author_profile: false
 # ================================
 # Build Settings
 # ================================
