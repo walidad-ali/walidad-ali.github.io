@@ -82,3 +82,6 @@ exclude:
   - Gemfile.lock
   - README.md
   - vendor/
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
