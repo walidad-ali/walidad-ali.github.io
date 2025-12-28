@@ -39,6 +39,9 @@ collections:
   articles:
     output: true
     permalink: /articles/:path/
+  case_studies:
+    output: true
+    permalink: /case-studies/:path/
 
 # ================================
 # Defaults
