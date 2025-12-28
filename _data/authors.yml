@@ -1,0 +1,22 @@
+# Primary Author (You)
+walidad_ali:
+  name: "Walidad Ali, CPA"
+  bio: "Licensed CPA specializing in tax controversy, IRS protocols, and financial automation."
+  avatar: "/assets/images/profile.jpeg"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/your-profile"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.walidad.com"
+
+# Murtaza Ismail
+guest_cpa_1:
+  name: "Murtaza Ismail, CPA"
+  bio: "Licensed CPA with over 15 years of experience."
+  avatar: "/assets/images/murtaza_ismail.jpg"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/murtaza-ismail-cpa-78610697/"
