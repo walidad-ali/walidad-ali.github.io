@@ -8,7 +8,8 @@ classes: wide
 
 Welcome to the knowledge base.
 
-{% for post in site.articles %}
-  [{{ post.title }}]({{ post.url | relative_url }})
-  *{{ post.date | date: "%B %d, %y" }}* — {{ post.excerpt | strip_html | truncate: 160 }}
-{% endfor %}
+<div class="entries-list">
+  {% for post in site.articles %}
+    {% include archive-single.html type="list" %}
+  {% endfor %}
+</div>
