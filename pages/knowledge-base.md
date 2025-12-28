@@ -2,7 +2,7 @@
 layout: single
 title: "Tax Knowledge Base"
 permalink: /knowledge-base/
-author_profile: true
+author_profile: false
 classes: wide
 ---
 
@@ -12,7 +12,7 @@ Welcome to the Tax Knowledge Base. We combine deep statutory analysis with real-
   <h2 style="margin-top: 0;"><i class="fas fa-book-open"></i> Technical Guides & Analysis</h2>
   <p>In-depth breakdowns of the Internal Revenue Code (IRC), Treasury Regulations, and the Internal Revenue Manual (IRM).</p>
   <div class="entries-list">
-    {% for post in site.articles %}
+    {% for post in site.knowledge_base %}
       {% include archive-single.html type="list" %}
     {% endfor %}
   </div>
