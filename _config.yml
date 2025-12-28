@@ -43,7 +43,7 @@ defaults:
       layout: "single"
       author_profile: true    # Shows the bio sidebar we set up
       author: "walidad_ali"   # Connects to _data/authors.yml
-      read_time: true
+      read_time: false
       classes: "wide"
       share: true             # Enables social sharing buttons
 
