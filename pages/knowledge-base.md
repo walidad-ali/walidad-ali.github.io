@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Tax Knowledge Base"
-permalink: /articles/
+permalink: /knowledge-base/
 author_profile: true
 classes: wide
 ---
