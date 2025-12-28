@@ -6,6 +6,32 @@ author_profile: false
 classes: wide
 ---
 
+I am a licensed CPA with a passion for solving complex tax problems. 
+
+My professional background includes three years in public accounting and three years of service at the IRS. Since 2022, I established my own tax firm to provide dedicated, high-level service to my clients.
+
+If you are interested in discussing your tax situation or have any questions, please feel free to schedule a free consultation. 
+
+---
+
+[Schedule a Free Consultation]({{ "/consultation/" | relative_url }}){: .btn .btn--primary .btn--large}
+
+
+
+
+
+
+
+
+
+---
+layout: single
+title: "About Me"
+permalink: /about/
+author_profile: false
+classes: wide
+---
+
 # Bridging Tax Expertise with Software Innovation
 
 I am a licensed CPA with a passion for building 21st-century tax solutions. My career is defined by a unique dual focus: mastering the complexities of the internal revenue code while developing the software tools necessary to automate and scale those processes.
