@@ -1,0 +1,31 @@
+# ==============================================================================
+# MASTER LEGAL REFERENCES
+# Update these once, and every article on the site updates automatically.
+# ==============================================================================
+
+# Internal Revenue Code (Statutes)
+irc_7122:
+  cite: "26 U.S.C. § 7122"
+  title: "Compromises"
+  url: "https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section7122"
+  type: "Statute"
+
+# Treasury Regulations (Interpretations)
+reg_7122_1:
+  cite: "Treas. Reg. § 301.7122-1"
+  title: "Compromises"
+  url: "https://www.ecfr.gov/current/title-26/section-301.7122-1"
+  type: "Regulation"
+
+# Internal Revenue Manual (Procedures)
+irm_5_15_1:
+  cite: "I.R.M. 5.15.1"
+  title: "Financial Analysis Handbook"
+  url: "https://www.irs.gov/irm/part5/irm_05-015-001"
+  type: "Manual"
+
+irm_8_23_1:
+  cite: "I.R.M. 8.23.1"
+  title: "Offer in Compromise Overview"
+  url: "https://www.irs.gov/irm/part8/irm_08-023-001"
+  type: "Manual"
