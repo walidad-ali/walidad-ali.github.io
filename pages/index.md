@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Walidad Ali, CPA"
+title:
 permalink: /
 author_profile: false
 classes: wide
