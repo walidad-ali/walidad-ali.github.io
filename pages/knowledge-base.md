@@ -9,5 +9,5 @@ classes: wide
 {% assign docs = site.knowledge_base | sort: 'date' | reverse %}
 
 {% for doc in docs %}
-* [{{ doc.title }}]({{ doc.url }}) - {{ doc.date | date: "%Y-%m-%d" }}
+* [{{ doc.title }}]({{ doc.url }})
 {% endfor %}
