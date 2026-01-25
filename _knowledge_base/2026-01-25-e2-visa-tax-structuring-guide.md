@@ -35,6 +35,7 @@ Moving to the US on an E-2 visa shifts your global tax residency. While your imm
 E-2 investors have multiple paths when structuring a business. However, it is vital to understand that your entity exists in two different worlds: the **Legal World** (State) and the **Tax World** (IRS).
 
 ### Step 1: The Legal Wrapper (State Level)
+
 First, you will register your business with the Secretary of State (e.g., California or Arizona). This defines your legal liability and ownership structure. Your primary options are:
 * **No Entity:** Operating as an individual (Sole Proprietorship).
 * **LLC (Limited Liability Company):** The most flexible "hybrid" structure.
@@ -43,7 +44,7 @@ First, you will register your business with the Secretary of State (e.g., Califo
 Tip: In most cases, you will register your entity in the state you plan on residing in. For example, if you plan on living in Florida, in 99% of the cases, an entity registered with Florida's secretary of state will be the best choice. There are exceptions though especially if you plan on raising outside capital down the road in which case a Delaware C-Corp might be a better option.
 
 ### Step 2: The Tax Election (Federal Level)
-Once your legal entity is formed, you must "exit" the immigration world and enter the tax world. The IRS does not necessarily care what you called your business at the State level; they care how you elect to be taxed. 
+Once your legal entity is formed, you must "exit" the legal/business world and enter the tax world. The IRS does not necessarily care what you called your business at the State level; they care how you elect to be taxed. 
 
 Depending on your Step 1 choice, your Step 2 options are:
 
@@ -54,6 +55,7 @@ Depending on your Step 1 choice, your Step 2 options are:
 | **Inc** | C-Corp or S-Corp |
 
 ### The "Tax Residency" Filter
+
 There is a significant **"IF"** at this stage: Your choices in Step 2 are strictly governed by your **US Tax Residency**. 
 
 The following tables outline exactly who files what. These requirements depend entirely on whether you have met the [**Substantial Presence Test**](https://www.irs.gov/individuals/international-taxpayers/substantial-presence-test){:target="_blank"} for the tax year.
@@ -66,6 +68,7 @@ For example, a common trap for E-2 holders is the **S-Corp**. While it is a popu
 The following tables outline exactly who files what. These requirements depend entirely on whether you have met the [**Substantial Presence Test**](https://www.irs.gov/individuals/international-taxpayers/substantial-presence-test){:target="_blank"} for the tax year.
 
 ### 1. Non-Resident Owner (NRA Status)
+
 *Usually applies to your first year in the US or if you spend significant time abroad.*
 
 | Entity Type | Entity Files | Owner (Individual) Files | Key Compliance Notes |
@@ -96,15 +99,13 @@ The following tables outline exactly who files what. These requirements depend e
 For a foreign investor, the most dangerous US tax document isn't the tax return itself, it’s the **Information Return**. 
 
 ### Summary Table: Form 5472 Requirements
+
 | Entity Type | Foreign Ownership | Form 5472 Required? | Notes |
 | :--- | :--- | :--- | :--- |
 | **Single-Member LLC** | 100% Foreign | **YES** | Treated as corp for this form only. |
 | **C-Corporation** | 25%+ Foreign | **YES** | If reportable transactions occurred. |
 | **Partnership / MMLLC** | Any Foreign % | **NO** | Files Form 1065 & 8804/8805 instead. |
 
-
-
-**Crucial Warning:** The most dangerous scenario is the **Single-Member LLC**. Many foreigners open a US LLC, do nothing with it, or just deposit $1,000 in the bank and forget about it. That $1,000 deposit is a **reportable transaction**. Failure to file Form 5472 triggers an automatic **$25,000 penalty**.
 
 ---
 
