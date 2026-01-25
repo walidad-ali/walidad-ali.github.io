@@ -1,5 +1,5 @@
 ---
-title: "E-2 Visa Tax Structuring: The Ultimate Guide"
+title: "E-2 Visa Tax Structuring"
 excerpt: "A comprehensive guide on choosing the right entity structure (LLC vs C-Corp) for E-2 visa investors to minimize tax liability and satisfy immigration requirements."
 description: "Choosing the best legal entity for E-2 visa investors"
 date: 2026-01-25
@@ -14,7 +14,7 @@ tags:
   - foreign investor
 ---
 
-**TL;DR: As an E-2 applicant, the decisions you make before the business even starts will determine the amount of your free cash flow. This guide is designed to cut through the jargon and arm you with the information you need to make those decisions with confidence and clarity.**
+**TL;DR: As an E-2 applicant, the structural decisions you make before your first day of operation will directly determine your business's free cash flow. This guide is designed to clarify the legal and tax options available to you, providing the information necessary to make these foundational choices with confidence.**
 
 ---
 
@@ -26,7 +26,7 @@ tags:
 
 ## Why Structure Matters for E-2 Investors
 
-Moving to the US on an E-2 visa shifts your global tax residency. While your immigration lawyer focuses on "substantial investment," your tax strategy must focus on **wealth preservation**. Choosing the wrong entity can cost you hundreds of thousands in taxes and trigger punitive reporting requirements.
+Moving to the US on an E-2 visa shifts your global tax residency. While your immigration lawyer focuses on "substantial investment," your tax strategy must focus on [**wealth preservation**](https://joinhampton.com/){:target="_blank"}. Choosing the wrong entity can cost you hundreds of thousands in taxes and trigger punitive reporting requirements.
 
 ---
 
