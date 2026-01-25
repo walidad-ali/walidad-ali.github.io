@@ -56,14 +56,14 @@ Depending on your Step 1 choice, your Step 2 options are:
 ### The "Tax Residency" Filter
 There is a significant **"IF"** at this stage: Your choices in Step 2 are strictly governed by your **US Tax Residency**. 
 
-The following tables outline exactly who files what. These requirements depend entirely on whether you have met the [**Substantial Presence Test**](https://www.irs.gov/individuals/international-taxpayers/substantial-presence-test){:target="_blank"} for the tax year.
-For example, a common trap for E-2 holders is the **S-Corp**. While it is a popular tax-saving tool for Americans, it is generally **off-limits** to "Non-Resident Aliens." Attempting to elect S-Corp status before you have passed the [**Substantial Presence Test**](https://www.irs.gov/individuals/international-taxpayers/substantial-presence-test){:target="_blank"} (usually in Year 2) can lead to immediate IRS rejection and potential visa complications.
+The following tables outline exactly who files what. These requirements depend entirely on whether you have met the [**Substantial Presence Test**](https://www.irs.gov/individuals/international-taxpayers/substantial-presence-test){:target="_blank"}for the tax year.
+For example, a common trap for E-2 holders is the **S-Corp**. While it is a popular tax-saving tool for Americans, it is generally **off-limits** to "Non-Resident Aliens." Attempting to elect S-Corp status before you have passed the [**Substantial Presence Test**](https://www.irs.gov/individuals/international-taxpayers/substantial-presence-test){:target="_blank"}(usually in Year 2) can lead to immediate IRS rejection and potential visa complications.
 
 ---
 
 ## Part 2: Master Filing Matrix
 
-The following tables outline exactly who files what. These requirements depend entirely on whether you have met the [**Substantial Presence Test**](https://www.irs.gov/individuals/international-taxpayers/substantial-presence-test){:target="_blank"} for the tax year.
+The following tables outline exactly who files what. These requirements depend entirely on whether you have met the [**Substantial Presence Test**](https://www.irs.gov/individuals/international-taxpayers/substantial-presence-test){:target="_blank"}for the tax year.
 
 ### 1. Non-Resident Owner (NRA Status)
 *Usually applies to your first year in the US or if you spend significant time abroad.*
@@ -120,6 +120,6 @@ When you apply for your E-2 renewal (typically every 2 or 5 years), the officer 
 
 ## FAQ
 
-**Can an E-2 visa holder own an S-Corp?** Yes, but only after you become a US tax resident. You must pass the [**Substantial Presence Test**](https://www.irs.gov/individuals/international-taxpayers/substantial-presence-test){:target="_blank"} (typically in your second year) to be eligible.
+**Can an E-2 visa holder own an S-Corp?** Yes, but only after you become a US tax resident. You must pass the [**Substantial Presence Test**](https://www.irs.gov/individuals/international-taxpayers/substantial-presence-test){:target="_blank"}(typically in your second year) to be eligible.
 
 **Does an E-2 LLC need to file Form 5472?** Yes. If a foreign owner owns 100% of a Disregarded LLC, Form 5472 is required annually even if the business has $0 in income. Every transfer of funds (even for startup costs) is a reportable event.
