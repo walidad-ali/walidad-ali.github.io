@@ -16,6 +16,15 @@ tags:
 
 **TL;DR: The most common mistake E-2 investors make is defaulting to a standard LLC. For most foreign nationals, the optimal strategy is to form a U.S. LLC but elect to be taxed as a C-Corporation immediately. This avoids U.S. Estate Tax exposure, eliminates the risk of Branch Profits Tax, and creates a clear separation between personal and business funds for visa purposes.**
 
+graph TD
+    A[Start: E-2 Visa Entity Planning] --> B{Foreign Owner?}
+    B -- Yes --> C{U.S. Tax Resident?}
+    C -- No --> D[Form LLC / Elect C-Corp Tax]
+    C -- Yes --> E[Consider S-Corp Election]
+    D --> F[Avoids 40% Estate Tax]
+    D --> G[Protects from Branch Profits Tax]
+    E --> H[Pass-through Savings]
+
 ---
 
 ## Why Structure Matters for E-2 Investors
